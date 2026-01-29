@@ -28,3 +28,20 @@ else:
     result = "Invalid base"
 
 print("\nConverted Value =", result)
+
+
+OUTPUT:
+ NUMBER SYSTEM CONVERTER BY PARTHIV CHOWDARY
+Supported Bases:
+2  -> Binary
+8  -> Octal
+10 -> Decimal
+16 -> Hexadecimal
+---------------------------------------------
+ENTER THE NUMBER:5
+Enter source base (2 / 8 / 10 / 16): 2
+Enter target base (2 / 8 / 10 / 16): 8
+ERROR!
+Traceback (most recent call last):
+  File "<main.py>", line 14, in <module>
+ValueError: invalid literal for int() with base 2: '5'
